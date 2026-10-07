@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio Personal - Mahasiswa Teknik Informatika. Website dibuat dengan HTML5 dan CSS3 murni.">
+    <title>Portfolio - Erfita Ayu Pusparani | Mahasiswa Teknik Informatika</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ====================== HEADER / NAVBAR ====================== -->
+    <header class="site-header">
+        <nav class="navbar" aria-label="Navigasi utama">
+            <a href="#home" class="nav-logo">Erfita Ayu Pusparani</a>
+
+            <!-- Checkbox hack untuk menu mobile tanpa JavaScript -->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle-input" aria-label="Buka atau tutup menu navigasi">
+            <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+            </label>
+
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ====================== HERO SECTION ====================== -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">Erfita Ayu Pusparani</h1>
+                <p class="hero-role">Mahasiswa Teknik Informatika</p>
+                <p class="hero-desc">
+                    Saya adalah mahasiswa yang memiliki ketertarikan pada pengembangan website,
+                    teknologi, dan desain antarmuka. Saya senang mempelajari teknologi baru
+                    dan membangun berbagai project untuk mengembangkan kemampuan saya.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <figure class="hero-figure">
+                    <img src="https://static.wikia.nocookie.net/haimiyasenpai-wa-kowakute-kawaii/images/2/23/Mio.png/revision/latest?cb=20260607014725" alt="Foto profil Erfita Ayu Pusparani" width="400" height="400">
+                </figure>
+            </div>
+            <span class="hero-deco hero-deco-1" aria-hidden="true"></span>
+            <span class="hero-deco hero-deco-2" aria-hidden="true"></span>
+        </section>
+
+        <!-- ====================== ABOUT SECTION ====================== -->
+        <section id="about" class="section">
+            <div class="container">
+                <header class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-subtitle">Sedikit cerita tentang diri saya</p>
+                </header>
+
+                <div class="about-grid">
+                    <article class="about-text">
+                        <p>
+                            Saya adalah mahasiswa <strong>Teknik Informatika</strong> yang
+                            memiliki minat besar dalam dunia <em>pengembangan web</em> dan
+                            teknologi. Sejak mempelajari pemrograman, saya tertarik untuk
+                            membangun antarmuka yang rapi, fungsional, dan mudah digunakan.
+                        </p>
+                        <p>
+                            Saat ini saya fokus mempelajari <strong>HTML5, CSS3, dan JavaScript</strong>
+                            sebagai fondasi untuk menjadi seorang front-end developer. Tujuan
+                            karier saya adalah menjadi web developer profesional yang mampu
+                            membangun aplikasi web modern dan berkualitas.
+                        </p>
+                        <p>
+                            Saya percaya bahwa belajar teknologi tidak hanya soal menulis kode,
+                            tetapi juga soal memahami kebutuhan pengguna dan terus berlatih
+                            membangun project nyata.
+                        </p>
+                    </article>
+
+                    <aside class="about-cards">
+                        <div class="info-card">
+                            <span class="info-label">Nama</span>
+                            <span class="info-value">Erfita Ayu Pusparani</span>
+                        </div>
+                        <div class="info-card">
+                            <span class="info-label">Jurusan</span>
+                            <span class="info-value">TEKNIK INFORMATIKA</span>
+                        </div>
+                        <div class="info-card">
+                            <span class="info-label">Universitas</span>
+                            <span class="info-value">Universitas muhammadiyah malang</span>
+                        </div>
+                        <div class="info-card">
+                            <span class="info-label">Domisili</span>
+                            <span class="info-value">Malang</span>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====================== SKILLS SECTION ====================== -->
+        <section id="skills" class="section section-alt">
+            <div class="container">
+                <header class="section-header">
+                    <h2 class="section-title">My Skills</h2>
+                    <p class="section-subtitle">Teknologi dan tools yang saya pelajari</p>
+                </header>
+
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <div class="skill-icon" aria-hidden="true">&lt;/&gt;</div>
+                        <h3 class="skill-name">HTML5</h3>
+                        <p class="skill-desc">Struktur halaman web yang semantik dan rapi.</p>
+                        <div class="skill-level" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                            <span class="skill-level-bar" style="--level: 85%;"></span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon" aria-hidden="true">#</div>
+                        <h3 class="skill-name">CSS3</h3>
+                        <p class="skill-desc">Styling, layouting dengan Flexbox &amp; Grid.</p>
+                        <div class="skill-level" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                            <span class="skill-level-bar" style="--level: 80%;"></span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon" aria-hidden="true">JS</div>
+                        <h3 class="skill-name">JavaScript</h3>
+                        <p class="skill-desc">Interaktivitas dan logika pada halaman web.</p>
+                        <div class="skill-level" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                            <span class="skill-level-bar" style="--level: 60%;"></span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon" aria-hidden="true">✎</div>
+                        <h3 class="skill-name">UI/UX Design</h3>
+                        <p class="skill-desc">Desain antarmuka yang bersih dan ramah pengguna.</p>
+                        <div class="skill-level" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                            <span class="skill-level-bar" style="--level: 70%;"></span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon" aria-hidden="true">⎇</div>
+                        <h3 class="skill-name">Git &amp; GitHub</h3>
+                        <p class="skill-desc">Version control dan kolaborasi proyek.</p>
+                        <div class="skill-level" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                            <span class="skill-level-bar" style="--level: 65%;"></span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon" aria-hidden="true">⌘</div>
+                        <h3 class="skill-name">Responsive Web Design</h3>
+                        <p class="skill-desc">Tampilan yang adaptif di semua perangkat.</p>
+                        <div class="skill-level" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100">
+                            <span class="skill-level-bar" style="--level: 78%;"></span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====================== EDUCATION SECTION ====================== -->
+        <section id="education" class="section">
+            <div class="container">
+                <header class="section-header">
+                    <h2 class="section-title">Education</h2>
+                    <p class="section-subtitle">Riwayat pendidikan saya</p>
+                </header>
+
+                <ol class="timeline">
+                    <li class="timeline-item">
+                        <span class="timeline-dot" aria-hidden="true"></span>
+                        <div class="timeline-content">
+                            <time class="timeline-period">2026 - Sekarang</time>
+                            <h3 class="timeline-title">Universitas Muhammadiyah Malang</h3>
+                            <p class="timeline-desc">S1 TEKNIK INFORMATIKA — Sedang menempuh pendidikan sarjana dengan fokus pada pemrograman web dan rekayasa perangkat lunak.</p>
+                        </div>
+                    </li>
+
+                    <li class="timeline-item">
+                        <span class="timeline-dot" aria-hidden="true"></span>
+                        <div class="timeline-content">
+                            <time class="timeline-period">2023 - 2026</time>
+                            <h3 class="timeline-title">SMAN1 Blitar</h3>
+                            <p class="timeline-desc">IPS — Menjadi awal ketertarikan saya pada dunia teknologi dan pemrograman.</p>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- ====================== PROJECTS SECTION ====================== -->
+        <section id="projects" class="section section-alt">
+            <div class="container">
+                <header class="section-header">
+                    <h2 class="section-title">My Projects</h2>
+                    <p class="section-subtitle">Beberapa project yang pernah saya kerjakan</p>
+                </header>
+
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <figure class="project-figure">
+                            <div class="project-thumb" aria-hidden="true">
+                                <span class="project-thumb-text">01</span>
+                            </div>
+                            <figcaption class="project-number">Project 01</figcaption>
+                        </figure>
+                        <div class="project-body">
+                            <h3 class="project-name">Personal Portfolio</h3>
+                            <p class="project-desc">Website portfolio pribadi menggunakan HTML dan CSS murni tanpa framework.</p>
+                            <ul class="project-tech">
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                            </ul>
+                            <a href="#" class="btn btn-small">View Project</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <figure class="project-figure">
+                            <div class="project-thumb" aria-hidden="true">
+                                <span class="project-thumb-text">02</span>
+                            </div>
+                            <figcaption class="project-number">Project 02</figcaption>
+                        </figure>
+                        <div class="project-body">
+                            <h3 class="project-name">Simple Landing Page</h3>
+                            <p class="project-desc">Landing page modern untuk sebuah bisnis dengan desain minimalis.</p>
+                            <ul class="project-tech">
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                            </ul>
+                            <a href="#" class="btn btn-small">View Project</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <figure class="project-figure">
+                            <div class="project-thumb" aria-hidden="true">
+                                <span class="project-thumb-text">03</span>
+                            </div>
+                            <figcaption class="project-number">Project 03</figcaption>
+                        </figure>
+                        <div class="project-body">
+                            <h3 class="project-name">Student Information Website</h3>
+                            <p class="project-desc">Website informasi mahasiswa dengan fitur interaktif sederhana.</p>
+                            <ul class="project-tech">
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <a href="#" class="btn btn-small">View Project</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====================== CONTACT SECTION ====================== -->
+        <section id="contact" class="section">
+            <div class="container">
+                <header class="section-header">
+                    <h2 class="section-title">Let's Work Together</h2>
+                    <p class="section-subtitle">Punya project atau ingin menyapa? Hubungi saya.</p>
+                </header>
+
+                <div class="contact-grid">
+                    <aside class="contact-info">
+                        <h3 class="contact-info-title">Informasi Kontak</h3>
+                        <ul class="contact-list">
+                            <li>
+                                <span class="contact-label">NIM</span>
+                                <span>202310370311212</span>
+                            </li>
+                            <li>
+                                <span class="contact-label">Location</span>
+                                <span>Malang</span>
+                            </li>
+                            <li>
+                                <span class="contact-label">GitHub</span>
+                                <a href="https://github.com/FitoLur">github.com/FitoLur</a>
+                            </li>
+                            <li>
+                                <span class="contact-label">Instagram</span>
+                                <a href="https://instagram.com/erfitolol_">@erfitolol</a>
+                            </li>
+                        </ul>
+                    </aside>
+
+                    <form class="contact-form" action="#" method="post">
+                        <div class="form-group">
+                            <label for="fullname">Full Name</label>
+                            <input type="text" id="fullname" name="fullname" placeholder="Masukkan nama lengkap Anda" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tulis pesan Anda di sini" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ====================== FOOTER ====================== -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-identity">
+                <p class="footer-name">Erfita Ayu Pusparani</p>
+                <p class="footer-tagline">Student • Web Enthusiast • Future Developer</p>
+            </div>
+            <nav class="footer-social" aria-label="Tautan sosial media">
+                <a href="https://github.com/FitoLur">GitHub</a>
+                <a href="https://instagram.com/erfitolol_">Instagram</a>
+            </nav>
+        </div>
+        <p class="footer-copy">&copy; 2026 Erfita Ayu Pusparani. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
